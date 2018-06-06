@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ConcurrencyDemo/.vs/ConcurrencyDemo/v15
+/ConcurrencyDemo/ConcurrencyDemo/bin/Debug
+/ConcurrencyDemo/ConcurrencyDemo/obj/Debug
+/ConcurrencyDemo/WpfDeadlockDemo/bin/Debug
+/ConcurrencyDemo/WpfDeadlockDemo/obj/Debug

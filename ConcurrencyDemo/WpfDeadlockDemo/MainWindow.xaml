@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfDeadlockDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDeadlockDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Зависнуть" HorizontalAlignment="Left" Margin="267,24,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="344" Margin="10,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="772"/>
+        <Button Content="Подвиснуть" HorizontalAlignment="Left" Margin="394,24,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_1" />
+        <Button Content="Сделать хорошо" HorizontalAlignment="Left" Margin="521,24,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
